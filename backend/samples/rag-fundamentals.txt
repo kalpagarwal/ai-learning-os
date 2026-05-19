@@ -1,0 +1,10 @@
+RAG Fundamentals
+
+Retrieval-Augmented Generation (RAG) combines retrieval and generation.
+
+1) Parse document text.
+2) Chunk the text.
+3) Embed chunks.
+4) Index vectors in Qdrant.
+5) Retrieve relevant chunks for a query.
+6) Inject context into the model prompt.
